@@ -2,4 +2,9 @@
 
 defmodule BasicIO do
   IO.puts("===================ELIXIR IO===================")
+  # get the input from the user and store in a variable
+  num = IO.gets("Enter a number: ")
+  # print the number to the screen
+  IO.puts("You entered: ")
+  IO.puts(num)
 end
