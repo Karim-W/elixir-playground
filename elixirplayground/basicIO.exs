@@ -7,4 +7,9 @@ defmodule BasicIO do
   # print the number to the screen
   IO.puts("You entered: ")
   IO.puts(num)
+  IO |> "ehyyy"
+end
+
+defmodule FileIO do
+  # TODO: write to file and then read again
 end
